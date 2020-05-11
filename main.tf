@@ -1,7 +1,6 @@
 terraform {
   backend "remote" {
-    hostname     = "app.terraform.io"
-    organization = "<YOUR-ORG-NAME>"
+    organization = "abc-hashi-training"
 
     workspaces {
       name = "learn-terraform-circleci"
